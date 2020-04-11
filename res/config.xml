@@ -41,6 +41,11 @@
         <default>false</default>
     </entry>
 
+    <entry name="enableSBSLayout" type="Bool">
+	    <label>Enable/disable Side By Side layout</label>
+        <default>true</default>
+    </entry>
+
     <entry name="enableFloatingLayout" type="Bool">
 	    <label>Enable/disable Floating layout</label>
         <default>false</default>

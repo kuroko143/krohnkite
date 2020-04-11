@@ -184,6 +184,7 @@ class KWinDriver implements IDriverContext {
         bindLayout("", "Stair", StairLayout);
         bindLayout("", "Floating", FloatingLayout);
         bindLayout("", "Quarter", QuarterLayout);
+        bindLayout("", "SBS", SBSLayout);
     }
 
     //#region Helper functions

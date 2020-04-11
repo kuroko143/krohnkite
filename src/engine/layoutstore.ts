@@ -48,6 +48,7 @@ class LayoutStoreEntry {
             SpreadLayout,
             StairLayout,
             QuarterLayout,
+            SBSLayout,
             FloatingLayout,
         ].forEach((layoutClass: ILayoutClass) => {
             if (!this.layouts[layoutClass.id])

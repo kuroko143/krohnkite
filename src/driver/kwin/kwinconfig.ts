@@ -78,6 +78,7 @@ class KWinConfig implements IConfig {
 
         this.layouts = [];
         ([
+            ["enableSBSLayout"        , true, SBSLayout],
             ["enableTileLayout"       , true , TileLayout],
             ["enableMonocleLayout"    , true , MonocleLayout],
             ["enableThreeColumnLayout", true , ThreeColumnLayout],
