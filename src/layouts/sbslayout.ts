@@ -122,11 +122,7 @@ class SBSLayout implements ILayout {
         let rightSide = new Array<T>();
 
         for(var i=0; i<array.length; i++) {
-            if (i === 0) { rightSide.push(array[i]); }
-            else if (i === 1) { leftSide.push(array[i]); }
-            else {
-                (i % 2 === 0 ? leftSide : rightSide).push(array[i]);
-            }
+            (i % 2 === 0 ? rightSide : leftSide).push(array[i]);
         }
         return [leftSide, rightSide];
     }
